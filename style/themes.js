@@ -1,13 +1,15 @@
 export const lightTheme = {
   colors: {
-    typography: "#000000",
-    background: "#ffffff",
+    primary: "#3685ff",
+    backgroundPrimary: "#ffffff",
+    textPrimary: "#000000",
   },
 }
 
 export const darkTheme = {
   colors: {
-    typography: "#ffffff",
-    background: "#000000",
+    primary: "#3685ff",
+    backgroundPrimary: "#161616",
+    textPrimary: "#f6f6f6",
   },
 }
