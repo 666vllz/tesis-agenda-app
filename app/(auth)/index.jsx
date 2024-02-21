@@ -4,6 +4,7 @@ import { createStyleSheet, useStyles } from "react-native-unistyles"
 
 const AuthScreen = () => {
   const { styles } = useStyles(stylesheet)
+
   return (
     <View style={styles.container}>
       <Link href="/sign-in" asChild>
